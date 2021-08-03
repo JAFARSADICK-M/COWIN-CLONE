@@ -1,0 +1,139 @@
+*{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size:large;
+}
+h1{
+    text-align: center;
+    font-style: italic;
+}
+#header-title{
+    text-align: center;
+    font-size:55px;
+    display:inline;
+    position: absolute;
+    margin:30px 0px 10px 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+a:hover{
+    background-color: rgb(229, 238, 238);
+    
+
+}
+#about{
+    height:420px;
+}
+.mySlides{
+    height:430px;
+}
+
+/* buttones & textboxes*/
+.container-search{
+    align-items: center;
+    position: relative;
+    margin-top:10px;
+    height:350px;
+}
+.searchBox{
+    position:absolute;
+    left:50%;
+    top:50%;
+    transform:translate(-50%,-50%);
+}
+#validation_message{
+    margin:2%; 
+    color:rgb(211, 23, 23);
+    font-size:18px
+}
+.name{
+    background-color: rgb(52, 108, 121);
+    border-radius: 10px;
+    color:white;
+}
+
+.address{
+    padding:10px 20px 10px 20px;
+    font-size: 20px;
+    
+}
+.vaccine-type
+{
+    padding:10px 20px 0px 20px;
+    font-size: 20px;
+    
+}
+.available_capacity{
+    padding:10px 20px 0px 20px;
+    font-size: 20px;
+}
+.fees-type{
+     display:block;
+     float:right;
+     background-color: green;
+     border: 1px solid black;
+     border-radius: 20px;
+     font-size: 20px;
+     color:white;
+     text-align: center;
+     margin-right:  100px;
+     padding-top: 5px;
+     width:80px;
+     height:40px;
+     
+ }  
+.age-limit{
+    margin-top: 10px;
+    padding:10px 20px 0px 20px;
+    color:red;
+    font-size:20px;
+}
+.dose-1
+{
+    color:green;
+    padding:10px 20px 0px 20px;
+    font-size: 20px;
+}
+.dose-2{
+    color: green;
+    padding:10px 20px 20px 20px;
+    font-size: 20px;
+   
+}
+/* district */
+#sel-State{
+    margin-top: 40px;
+    border-radius: 20px;
+    height:40px;
+    color:black
+}
+#sel-districts{
+    border-radius: 20px;
+    height:40px;
+    color:black
+}
+#search-btn{
+    outline: none;
+    width:200px;
+    height:40px;
+    position:absolute;
+    left:46%;
+    top:100%;
+    transform:translate(-50%,-50%);
+    border-radius: 20px;
+    background-color: rgb(55, 146, 46);
+    color: black;
+    }
+    #search-btn:hover{
+        background-color: black;
+        color: rgb(23, 202, 23);
+    }
+     
+    /* mobile display */
+    @media(max-width:1040px)
+       {
+         #input-pin{
+            width:300px;
+            height:40px;
+            margin-top:40px;
+        }
+}

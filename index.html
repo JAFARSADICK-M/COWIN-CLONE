@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="icon" href="images/fav1.jpg" type="image/x-icon">
+    <title>COWIN-CLONE</title>
+  <!-- font-family -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu&display=swap" rel="stylesheet">
+
+       <link rel="stylesheet" href="cowin.css">
+  <!-- bootstrap 3 -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+</head>
+<body>
+     
+        <div class="container-fluid" >
+            <img src="images/vac1.jpg" alt="covid-19 image" width="150px" height="100px">
+            <h1 id="header-title"> Search Your Vaccine Slote <a href="#searchDistrict" id="district_link"><u style="color: green;">Click Here</u></a></h1>
+ </div><hr style="border: 1px solid black;">
+ <!-- about -->
+<div  class="container" id="about">
+               <img class="mySlides" src="images/ins1.png" style="width:100%" alt="Wear Mask"> </img>
+               <img class="mySlides" src="images/ins2.jpg" style="width:100%" alt="Maintain Social Distance"></img>
+                <img class="mySlides" src="images/ins3.png" style="width:100%" alt="Use Handsanitaizer"></img>
+                <img class="mySlides" src="images/ins4.jpg" style="width:100%" alt="Take Vaccine Your Turun"></img>
+                <img class="mySlides" src="images/ins5.jpg" style="width:100%" alt="protected By Vaccine"></img>
+</div>
+  <!-- Search  Districts -->
+  <div  id="searchDistrict">
+<div class="container-search" >
+    <div id="districtSearchBox" class="searchBox" >
+        <h1 >
+            Check Your Nearest Vaccination Center And Slots Availability</h1>
+            <div class="form-group">
+                <select id="sel-State" class="form-control">
+                    <option id="first-child">Select State</option>
+                </select>
+            </div>
+            <div class="form-group" >
+                <select class="form-control" id="sel-districts">
+                  <option>Select District</option>
+                 
+            </select>
+            <span id="validation_message"></span>
+            </div>
+        <div>
+            <button type="submit" id="search-btn">
+                Search
+            </button>
+        </div>
+
+    </div>
+</div>
+</div>
+        <div class="container" style="margin-top:10px;" id="result"></div>
+
+        <div class="container" id="parent-box" ></div><br><hr style="border: 0.5px solid black;">
+
+        <div style="margin-bottom: 30px;" id="inst"> 
+        <h1 >
+            Vaccines are one of our most important for prevending outbreaks and keeping the world safe.<span style="color: red;"><h1>"Get yourself vaccinated at the nearest vaccine centre."</h1></span></h1>
+        <hr style="margin:0px 200px 0px  200px;">
+        </div>
+         
+        </div>
+        <script src="district.js"></script>
+</body>
+</html> 
